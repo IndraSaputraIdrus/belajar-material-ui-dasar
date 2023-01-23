@@ -1,0 +1,19 @@
+:root {
+  --font-family: Roboto;
+}
+
+* {
+  font-family: var(--font-family);
+  padding: 0;
+  margin: 0;
+}
+
+.gap {
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
